@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+int a,b;
+
 // 소수인지 판별하는 함수
 bool isPrime(int n) {
     if (n < 2) return false;
