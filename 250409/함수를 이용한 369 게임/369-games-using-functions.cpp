@@ -9,7 +9,7 @@ int game(int a,int b){
     for(int i=a;i<=b;i++){
         sip=i/10;
         eil=i%10;
-        if(i%3==0 || sip%3==0 || eil%3==0)
+        if(i%3==0 || sip%6==0 || sip%9==0 || sip%3==0 || eil%6==0 || eil%9==0 || eil%3==0)
             cnt++;
     }
     return cnt;
