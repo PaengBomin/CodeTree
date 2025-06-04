@@ -21,7 +21,7 @@ int main() {
     sort(str,str+n);
 
     for (int i=0;i<n;i++) {
-        if (str[i].find("ap")!=string::npos) { 
+        if (str[i].substr(0,2)=="ap") { 
             newstr.push_back(str[i]);
         }
     }
