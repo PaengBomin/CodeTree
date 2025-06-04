@@ -14,8 +14,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> str[i];
     }
-
-    cin >> t;
+    
     vector<string> newstr;
 
     sort(str,str+n);
