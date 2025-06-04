@@ -14,7 +14,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> str[i];
     }
-    
+
     vector<string> newstr;
 
     sort(str,str+n);
@@ -25,7 +25,10 @@ int main() {
         }
     }
 
-    cout << newstr[k-1] << endl;
+
+    if (k <= newstr.size()) {
+        cout << newstr[k - 1] << endl;
+        }
 
     return 0;
 }
