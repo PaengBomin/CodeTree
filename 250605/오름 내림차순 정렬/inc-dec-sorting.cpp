@@ -22,7 +22,7 @@ int main() {
 
     sort(nums,nums+5,greater<int>());
     
-    for (int i=0;i<5;i++){
+    for (int i=0;i<n;i++){
         cout << nums[i] << " ";
     }
 
